@@ -1,113 +1,115 @@
 <!DOCTYPE html>
 <html>
 <head>
-<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-<style>
-body {
-  font-family: 'Roboto', sans-serif;
-  background-color: #424242;
-  color: white;
-}
-h2 {
-  padding-left: 8px;
-  letter-spacing: 2.5px;
-}
-table {
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <style>
+  body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #424242;
+    color: white;
+  }
+  h2 {
+    padding-left: 8px;
+    letter-spacing: 2.5px;
+  }
+  table {
+    border-radius: 2px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 3px 3px rgba(0,0,0,0.23);
     border-collapse: collapse;
     width: 100%;
-}
-a {
-  color: white;
-}
-td, th {
-    border: 1px solid black;
+  }
+  a {
+    color: white;
+  }
+  td, th {
+    border: 1px solid #6d6d6d;
     letter-spacing: 1px;
     text-align: left;
     padding: 8px;
     width: 16.7%;
-}
-tr:nth-child(even) {
+  }
+  tr:nth-child(even) {
     background-color: #303030;
-}
-img {
-  position: absolute;
-  margin: auto;
-  left: 0;
-  right: 0;
-  top: 75%;
-  bottom: 25%;
-}
+  }
+  img {
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 75%;
+    bottom: 25%;
+  }
 </style>
 </head>
 <body>
 
-<h2>University Links</h2>
+  <h2>University Links</h2>
 
-<table>
-  <tr>
-    <th>Favourites</th>
-    <th>University</th>
-    <th>ENGR110</th>
-    <th>COMP103</th>
-    <th>ENGR123</th>
-    <th>CGRA151</th>
-  </tr>
-  <tr>
-    <td><a href="http://google.com/inbox">Inbox</a></td> <!-- FAVS -->
-    <td><a href="https://blackboard.vuw.ac.nz/webapps/portal/execute/tabs/tabAction?tab_tab_group_id=_1_1">Blackboard</a></td> <!-- University -->
-    <td><a href="https://ecs.victoria.ac.nz/Courses/ENGR110_2018T2/CourseOutline">Course Outline</a></td> <!-- ENGR110 -->
-    <td><a href="https://ecs.victoria.ac.nz/Courses/COMP103_2018T2/CourseOutline">Course Outline</a></td> <!-- COMP103 -->
-    <td><a href="https://ecs.victoria.ac.nz/Courses/ENGR123_2018T2/CourseOutline">Course Outline</a></td> <!-- ENGR123 -->
-    <td><a href="https://ecs.victoria.ac.nz/Courses/CGRA151_2018T2/CourseOutline">Course Outline</a></td> <!-- CGRA151 -->
-  </tr>
-  <tr>
-    <td><a href="http://drive.google.com">Drive<a/></td> <!-- FAVS -->
-    <td><a href="https://student-sa.victoria.ac.nz/Student.aspx">MyAllocator</a></td> <!-- University -->
-    <td><a href="https://ecs.victoria.ac.nz/Courses/ENGR110_2018T2/LectureSchedule">Lecture Notes</a></td> <!-- ENGR110 -->
-    <td><a href="https://ecs.victoria.ac.nz/Courses/COMP103_2018T2/Schedule">Lecture Notes</a></td> <!-- COMP103 -->
-    <td><a href="https://blackboard.vuw.ac.nz/webapps/blackboard/content/listContent.jsp?course_id=_95823_1&content_id=_2302712_1&mode=reset">Lecture Notes</a></td> <!-- ENGR123 -->
-    <td><a href="https://ecs.victoria.ac.nz/Courses/CGRA151_2018T2/LectureSchedule">Lecture Notes</a></td> <!-- CGRA151 -->
-  </tr>
-  <tr>
-    <td><a href="http://keep.google.com">Keep<a/></td> <!-- FAVS -->
-      <td><a href="https://wifiprint.student.vuw.ac.nz/cps/">Printing</a></td> <!-- University -->
-    <td><a href="https://ecs.victoria.ac.nz/Courses/ENGR110_2018T2/Assignments">Assignments</a></td> <!-- ENGR110 -->
-    <td><a href="https://ecs.victoria.ac.nz/Courses/COMP103_2018T2/Assignments">Assignments</a></td> <!-- COMP103 -->
-    <td><a href="https://blackboard.vuw.ac.nz/webapps/blackboard/content/listContent.jsp?course_id=_95823_1&content_id=_2302713_1&mode=reset">Assignments</a></td> <!-- ENGR123 -->
-    <td><a href="https://ecs.victoria.ac.nz/Courses/CGRA151_2018T2/Assignments">Assignments</a></td> <!-- CGRA151 -->
-  </tr>
-  <tr>
-    <td><a href="http://photos.google.com">Photos<a/></td> <!-- FAVS -->
-    <td><a href="https://my.vuw.ac.nz/render.userLayoutRootNode.uP?uP_root=root">MyVUW</a></td> <!-- University -->
-    <td><a href="https://apps.ecs.vuw.ac.nz/submit/ENGR110">Submit</a></td> <!-- ENGR110 -->
-    <td><a href="https://apps.ecs.vuw.ac.nz/submit/COMP103">Submit</a></td> <!-- COMP103 -->
-    <td><a href="https://apps.ecs.vuw.ac.nz/submit/ENGR123">Submit</a></td> <!-- ENGR123 -->
-    <td><a href="https://apps.ecs.vuw.ac.nz/submit/CGRA151">Submit</a></td> <!-- CGRA151 -->
-  </tr>
-  <tr>
-    <td><a href="https://youtube.com">Youtube<a/></td> <!-- FAVS -->
-    <td><a href="https://apps.ecs.vuw.ac.nz/cgi-bin/studentmarks">Results</a></td> <!-- University -->
-    <td><a href="https://ecs.victoria.ac.nz/Main/ExamArchiveENGR110">Exams</a></td> <!-- ENGR110 -->
-    <td><a href="https://ecs.victoria.ac.nz/Main/ExamArchiveCOMP103">Exams</a></td> <!-- COMP103 -->
-    <td><a href="https://blackboard.vuw.ac.nz/webapps/blackboard/content/listContent.jsp?course_id=_95823_1&content_id=_2302714_1&mode=reset">Exams</a></td> <!-- ENGR123 -->
-    <td><a href="https://ecs.victoria.ac.nz/Main/ExamArchiveCGRA151">Exams</a></td> <!-- CGRA151 -->
-  </tr>
-  <tr>
-      <td><a href="http://reddit.com">Reddit<a/></td> <!-- FAVS -->
-    <td><a href="https://www.massdrop.com/mechanical-keyboards/drops">Massdrop</a></td> <!-- University -->
-    <td><a href="https://github.com/">Github</a></td> <!-- ENGR110 -->
-    <td><a href="https://ecs.victoria.ac.nz/Courses/COMP103_2018T2/Tutorials">Tutorials</a></td> <!-- COMP103 -->
-    <td><a href="https://ecs.victoria.ac.nz/Courses/ENGR123_2018T2/LabResources">Lab Resouces</a></td> <!-- ENGR123 -->
-    <td><a href=""></a></td> <!-- CGRA151 -->
-  </tr>
-  <tr>
-    <td><a href="http://reddit.com/r/MechanicalKeyboards">r/mk<a/></td> <!-- FAVS -->
-    <td><a href="https://geekhack.org/">Geekhack</a></td> <!-- University -->
-    <td><a href=""></a></td> <!-- ENGR110 -->
-    <td><a href="http://ecs.victoria.ac.nz/foswiki/pub/Main/JavaResources/javaAPI-103.html">Java API</a>,
-    <a href="https://ecs.victoria.ac.nz/Courses/COMP103_2018T2/JavaStyle">Style Guide</a></td> <!-- COMP103 -->
-    <td><a href=""></a></td> <!-- ENGR123 -->
-    <td><a href=""></a></td> <!-- CGRA151 -->
-  </tr>
-</table>
-</html>
+  <table>
+    <tr>
+      <th>Favourites</th>
+      <th>University</th>
+      <th>ENGR110</th>
+      <th>COMP103</th>
+      <th>ENGR123</th>
+      <th>CGRA151</th>
+    </tr>
+    <tr>
+      <td><a href="http://google.com/inbox">Inbox</a></td> <!-- FAVS -->
+      <td><a href="https://blackboard.vuw.ac.nz/webapps/portal/execute/tabs/tabAction?tab_tab_group_id=_1_1">Blackboard</a></td> <!-- University -->
+      <td><a href="https://ecs.victoria.ac.nz/Courses/ENGR110_2018T2/CourseOutline">Course Outline</a></td> <!-- ENGR110 -->
+      <td><a href="https://ecs.victoria.ac.nz/Courses/COMP103_2018T2/CourseOutline">Course Outline</a></td> <!-- COMP103 -->
+      <td><a href="https://ecs.victoria.ac.nz/Courses/ENGR123_2018T2/CourseOutline">Course Outline</a></td> <!-- ENGR123 -->
+      <td><a href="https://ecs.victoria.ac.nz/Courses/CGRA151_2018T2/CourseOutline">Course Outline</a></td> <!-- CGRA151 -->
+    </tr>
+    <tr>
+      <td><a href="http://drive.google.com">Drive<a/></td> <!-- FAVS -->
+        <td><a href="https://student-sa.victoria.ac.nz/Student.aspx">MyAllocator</a></td> <!-- University -->
+        <td><a href="https://ecs.victoria.ac.nz/Courses/ENGR110_2018T2/LectureSchedule">Lecture Notes</a></td> <!-- ENGR110 -->
+        <td><a href="https://ecs.victoria.ac.nz/Courses/COMP103_2018T2/Schedule">Lecture Notes</a></td> <!-- COMP103 -->
+        <td><a href="https://blackboard.vuw.ac.nz/webapps/blackboard/content/listContent.jsp?course_id=_95823_1&content_id=_2302712_1&mode=reset">Lecture Notes</a></td> <!-- ENGR123 -->
+        <td><a href="https://ecs.victoria.ac.nz/Courses/CGRA151_2018T2/LectureSchedule">Lecture Notes</a></td> <!-- CGRA151 -->
+      </tr>
+      <tr>
+        <td><a href="http://keep.google.com">Keep<a/></td> <!-- FAVS -->
+          <td><a href="https://wifiprint.student.vuw.ac.nz/cps/">Printing</a></td> <!-- University -->
+          <td><a href="https://ecs.victoria.ac.nz/Courses/ENGR110_2018T2/Assignments">Assignments</a></td> <!-- ENGR110 -->
+          <td><a href="https://ecs.victoria.ac.nz/Courses/COMP103_2018T2/Assignments">Assignments</a></td> <!-- COMP103 -->
+          <td><a href="https://blackboard.vuw.ac.nz/webapps/blackboard/content/listContent.jsp?course_id=_95823_1&content_id=_2302713_1&mode=reset">Assignments</a></td> <!-- ENGR123 -->
+          <td><a href="https://ecs.victoria.ac.nz/Courses/CGRA151_2018T2/Assignments">Assignments</a></td> <!-- CGRA151 -->
+        </tr>
+        <tr>
+          <td><a href="http://photos.google.com">Photos<a/></td> <!-- FAVS -->
+            <td><a href="https://my.vuw.ac.nz/render.userLayoutRootNode.uP?uP_root=root">MyVUW</a></td> <!-- University -->
+            <td><a href="https://apps.ecs.vuw.ac.nz/submit/ENGR110">Submit</a></td> <!-- ENGR110 -->
+            <td><a href="https://apps.ecs.vuw.ac.nz/submit/COMP103">Submit</a></td> <!-- COMP103 -->
+            <td><a href="https://apps.ecs.vuw.ac.nz/submit/ENGR123">Submit</a></td> <!-- ENGR123 -->
+            <td><a href="https://apps.ecs.vuw.ac.nz/submit/CGRA151">Submit</a></td> <!-- CGRA151 -->
+          </tr>
+          <tr>
+            <td><a href="https://youtube.com">Youtube<a/></td> <!-- FAVS -->
+              <td><a href="https://apps.ecs.vuw.ac.nz/cgi-bin/studentmarks">Results</a></td> <!-- University -->
+              <td><a href="https://ecs.victoria.ac.nz/Main/ExamArchiveENGR110">Exams</a></td> <!-- ENGR110 -->
+              <td><a href="https://ecs.victoria.ac.nz/Main/ExamArchiveCOMP103">Exams</a></td> <!-- COMP103 -->
+              <td><a href="https://blackboard.vuw.ac.nz/webapps/blackboard/content/listContent.jsp?course_id=_95823_1&content_id=_2302714_1&mode=reset">Exams</a></td> <!-- ENGR123 -->
+              <td><a href="https://ecs.victoria.ac.nz/Main/ExamArchiveCGRA151">Exams</a></td> <!-- CGRA151 -->
+            </tr>
+            <tr>
+              <td><a href="http://reddit.com">Reddit<a/></td> <!-- FAVS -->
+                <td><a href="https://www.massdrop.com/mechanical-keyboards/drops">Massdrop</a></td> <!-- University -->
+                <td><a href="https://github.com/">Github</a></td> <!-- ENGR110 -->
+                <td><a href="https://ecs.victoria.ac.nz/Courses/COMP103_2018T2/Tutorials">Tutorials</a></td> <!-- COMP103 -->
+                <td><a href="https://ecs.victoria.ac.nz/Courses/ENGR123_2018T2/LabResources">Lab Resouces</a></td> <!-- ENGR123 -->
+                <td><a href=""></a></td> <!-- CGRA151 -->
+              </tr>
+              <tr>
+                <td><a href="http://reddit.com/r/MechanicalKeyboards">r/mk<a/></td> <!-- FAVS -->
+                  <td><a href="https://geekhack.org/">Geekhack</a></td> <!-- University -->
+                  <td><a href=""></a></td> <!-- ENGR110 -->
+                  <td><a href="http://ecs.victoria.ac.nz/foswiki/pub/Main/JavaResources/javaAPI-103.html">Java API</a>,
+                    <a href="https://ecs.victoria.ac.nz/Courses/COMP103_2018T2/JavaStyle">Style Guide</a></td> <!-- COMP103 -->
+                    <td><a href=""></a></td> <!-- ENGR123 -->
+                    <td><a href=""></a></td> <!-- CGRA151 -->
+                  </tr>
+                </table>
+                </html>
