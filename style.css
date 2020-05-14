@@ -83,7 +83,7 @@ a, a:visited, a:hover {
 /* ------------- BOX STYLING ------------- */ 
 
 .box {
-	width: 90vw;
+	width: 80vw;
 	display: flex;
 	justify-content: space-between;
 	flex-flow: wrap;
@@ -92,18 +92,13 @@ a, a:visited, a:hover {
 .box .box-container {
 	background-color: #2E3441;
 	min-width: 200px;
-	height: 220px;
+	/*height: 250px;*/
+	padding-bottom: 25px;
 	float: left;
 	border-radius: 5px;
-
 	margin-right: 25px;
 	margin-left: 25px;
-
 	margin-bottom: 50px;
-}
-
-.box .box-container:not(:last-child) {
-	/*margin-right: 50px;*/
 }
 
 .box .box-container .heading {
