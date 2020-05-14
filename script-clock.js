@@ -1,3 +1,5 @@
+// https://github.com/Tobias-Schoch/startpage-wave
+
 function updateClock() {
     var now = new Date();
     hours = now.getHours();
