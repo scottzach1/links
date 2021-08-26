@@ -1,11 +1,11 @@
 # Quick Links
-> Live: [links.zaci.dev](https://links.zaci.dev)
+> Live: [zaci.dev/links](https://zaci.dev/links).
 
 A Gitpage containing all my links to relevant course pages.
 
 Feel free to use fellow students.
 
-The website can be visited at [links.zaci.dev](https://links.zaci.dev).
+The website can be visited at [zaci.dev/links](https://zaci.dev/links).
 
 ![Chrome Screenshot](./screenshot.png)
 
